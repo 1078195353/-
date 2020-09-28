@@ -1,0 +1,21 @@
+/* pages/addUs/addUs.wxss */
+.addOutbox{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.addOutbox .title{
+  width: 100%;
+  height: 350rpx;
+  margin-bottom: 40rpx;
+}
+.addOutbox .qq{
+  width: 80%;
+  height: 1000rpx;
+  margin: 10rpx;
+}
+.addOutbox .wx{
+  width: 80%;
+  height: 1200rpx;
+}

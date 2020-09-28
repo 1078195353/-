@@ -1,0 +1,56 @@
+/* pages/konwUs/konwUs.wxss */
+@import "/pages/template/list-template.wxss";
+.konwOutBox{
+  width: 100%;
+}
+.konwOutBox .titleVd_box,image{
+  width: 100%;
+}
+.konwOutBox .jianjie_box,
+.konwOutBox .mudi_box,
+.konwOutBox .huodong_box{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20rpx;
+}
+
+.konwOutBox .jianjieinner_title_box{
+  width: 18%;
+  color: #ED764F;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.konwOutBox .mudiinner_title_box{
+  width: 30%;
+  color: yellowgreen;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.konwOutBox .huodonginner_title_box{
+  width: 30%;
+  color: #065371;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.konwOutBox .jianjieinner_title_box .icon{
+  font-size: 30rpx;
+}
+.konwOutBox .mudiinner_title_box .icon{
+  font-size: 45rpx;
+}
+.konwOutBox .huodonginner_title_box .icon{
+  font-size: 35rpx;
+}
+
+.konwOutBox .jianjieinner_content_box,.mudiinner_content_box,.huodonginner_content_box{
+  width: 90%;
+  display: block;
+  float: left;
+  font-size: 28rpx;
+}

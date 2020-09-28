@@ -1,0 +1,21 @@
+.outerbox{
+  width: 100%;
+  height: 90rpx;
+  background-color: #065371;
+  color: white;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.outerbox .innerbox{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.outerbox .innerbox text{
+  height: 100%;
+  line-height: 90rpx;
+}

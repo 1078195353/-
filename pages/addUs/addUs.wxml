@@ -1,0 +1,8 @@
+<!--pages/addUs/addUs.wxml-->
+<view class="addOutbox">
+  <image class="title" src="/images/index/title.png"></image>
+  <image class="title" src="{{imageList[0].fileID}}"></image>
+  <text>{{imageList[0].name}}</text>
+  <image class="qq" src="/images/index/qq.jpg"></image>
+  <image class="wx" src="/images/index/wx.png"></image>
+</view>

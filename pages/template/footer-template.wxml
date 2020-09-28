@@ -1,0 +1,9 @@
+<template name="footTmp">
+    <view class="outerbox">
+      <view class="innerbox">
+        <text>关于我们</text>
+        <text bindtap="goTo_konwUs">了解我们</text>
+        <text bindtap="goTo_addUs">加入我们</text>
+      </view>
+    </view>
+</template>

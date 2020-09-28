@@ -1,0 +1,28 @@
+/* Pages/index/index.wxss */
+page{
+  height: 100%;
+	background:#065371;
+}
+.indexBox{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.indexBox .avatar{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.indexBox .text-box{
+  font-size: 16px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.indexBox .btn01{
+  font-size: 16px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #065371;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}

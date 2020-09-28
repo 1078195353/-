@@ -1,0 +1,7 @@
+<!--Pages/index/index.wxml-->
+<view class="indexBox" >
+    <image class="avatar" src='{{userInfo.avatarUrl}}'></image>
+    <text  class="text-box">HELLO！{{userInfo.nickName}}</text>
+    <button class="btn01"  wx:if="{{isShow}}"  bindgetuserinfo='handleGetUserInfo' open-type='getUserInfo' >授权</button>
+    <button class="btn01"  wx:else    catchtap='handleClick' >起飞</button>
+</view>

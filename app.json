@@ -1,0 +1,18 @@
+{
+  "pages": [
+    "pages/addUs/addUs",
+    "pages/index/index",
+    "pages/list/list",
+    "pages/showTo/showTo",
+    "pages/konwUs/konwUs"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#065371",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "CCUN无人机协会",
+    "backgroundColor": "#ffffff",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+
+  },
+  "navigationBarBackgroundColor": "#065371",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "了解我们",
+    "backgroundColor": "#ffffff",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+}

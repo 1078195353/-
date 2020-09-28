@@ -1,0 +1,67 @@
+/* pages/template/list-template.wxss */
+@import '/iconfont/iconfont.wxss';
+
+.outbox{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2rpx  rgba(196,199,206,0.7) solid ;
+}
+.outbox .titlebox{
+  width: 35%;
+  margin: 20rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.outbox .titlebox .title{
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 30rpx;
+}
+.outbox .titlebox text{
+  height: 100%;
+  text-align: center;
+  font-size: 28rpx;
+}
+
+.outbox .mainbox{
+  width: 100%;
+}
+.outbox .mainbox .maintitle{
+  display: block;
+  margin:20rpx;
+  font-weight: bolder;
+}
+.outbox .mainbox .maintext{
+  display: block; 
+  margin-left:20rpx;
+  font-size: 32rpx;
+}
+.outbox .footerouterbox{
+  margin-top: 20rpx;
+  width: 100%;
+  height: 80rpx;
+}
+.outbox .footerbox {
+  width: 30%;
+  margin: 20rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.outbox .footerbox .star {
+  color: #F2CB51;
+}
+.outbox .footerbox .star text{
+  text-align: center;
+  color: black;
+}
+.outbox .footerbox .look {
+  color: #065371;
+}
+.outbox .footerbox .look text{
+  text-align: center;
+  color: black;
+}

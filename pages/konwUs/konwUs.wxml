@@ -1,0 +1,56 @@
+<!--pages/konwUs/konwUs.wxml-->
+<view class="konwOutBox">
+  <view class="titleVd_box">
+    <!-- <video src="#"></video> -->
+    <image src="/images/index/yubei.jpg"></image>
+  </view>
+  <view class="jianjie_box">
+    <view class="jianjieinner_title_box">
+      <text class="iconfont iconjianjie icon" ></text>
+      <text>简介</text>
+    </view>
+      <text class="jianjieinner_content_box" decode="true">
+        &nbsp;&nbsp;&nbsp;&nbsp; 无人机协会隶属于华中师范大学计算机学院，由计算机学院同学组织，计算机学院老师参与，在华中师范大学2019年秋季运动会开幕式和华中师范大学2019年科技展览会开幕式上完成表演项目，得到了校领导和学校学生的认可以及计算机学院领导与老师的大力支持。无人机协会于2020-9-25号正式启动成立方案
+      </text>
+  </view>
+  <view class="mudi_box">
+    <view class="mudiinner_title_box">
+      <text class="iconfont iconxuexi icon"></text>
+      <text>宗旨与目的</text>
+    </view>
+    <text class="mudiinner_content_box" decode="true">
+      &nbsp;&nbsp;&nbsp;&nbsp;我们有以下老师的指导参加：
+      &nbsp;&nbsp;&nbsp;&nbsp;1.华中师范大学计算机学院党委副书记王坤老师
+      &nbsp;&nbsp;&nbsp;&nbsp;2.华中师范大学计算机学院团委书记何帅老师
+      &nbsp;&nbsp;&nbsp;&nbsp;3.华中师范大学计算机学院副院长刘明老师
+      &nbsp;&nbsp;&nbsp;&nbsp;4.华中师范大学计算机学院张连发老师
+      &nbsp;&nbsp;&nbsp;&nbsp;5.华中师范大学计算机学院郑世珏老师
+      &nbsp;&nbsp;&nbsp;&nbsp;6.华中师范大学计算机学院陈怡老师
+      &nbsp;&nbsp;&nbsp;&nbsp;7.华中师范大学计算机学院刘巍老师
+      &nbsp;&nbsp;&nbsp;&nbsp;我们社团与老师致力于为全校对无人机感兴趣的学生提供以以下几个大方向为基础的发展平台
+      &nbsp;&nbsp;&nbsp;&nbsp;一. 科研论文方向：
+      &nbsp;&nbsp;&nbsp;&nbsp;基于无人机方向以及无人机对应的人工智能与大数据课题等，进行课题研究与论文的撰写
+      &nbsp;&nbsp;&nbsp;&nbsp;二. 竞赛方向：
+      &nbsp;&nbsp;&nbsp;&nbsp;基于无人机的开发，参加各大无人机赛事
+      &nbsp;&nbsp;&nbsp;&nbsp;三. 创业方向：
+      &nbsp;&nbsp;&nbsp;&nbsp;无人机表演的工业化，集群化，无人机的学前教育等
+      &nbsp;&nbsp;&nbsp;&nbsp;四. 公益方向
+      &nbsp;&nbsp;&nbsp;&nbsp;计算机学院一直保持着做公益的初心，同学们可以在做公益的同时加上无人机的元素，例如为大家科普无人机的基本知识，教会大家无人机的基本操作
+    </text>
+  </view>
+  <view class="huodong_box">
+    <view class="huodonginner_title_box">
+      <text class="iconfont iconhuodong icon"></text>
+      <text>活动介绍</text>
+    </view>
+    <text class="huodonginner_content_box" decode="true">
+      加入我们你将拥有以下‘好处’：
+      1. 了解无人机从 0-1 的组装，调试，飞行。
+      2. 了解无人机的开发方法
+      3. 参加我们的线下试飞与无人机拍摄活动
+      4. 有机会与同学们一起参加科研，比赛，表演项目
+      5. 可以与爱好无人机的同学以及我们的指导老师一起交流
+      我们一直都在，只等你的到来！
+    </text>
+  </view>
+</view>

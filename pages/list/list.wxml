@@ -1,0 +1,16 @@
+<!--pages/list/list.wxml-->
+<import src="/pages/template/list-template.wxml" />
+<import src="/pages/template/footer-template.wxml" />
+<view class="container">
+  <swiper indicator-dots indicator-color="rgba(255,255,253,0.3)" indicator-active-color="#065371" autoplay='true' interval='3000'>
+    <swiper-item wx:for="{{list_photo}}" wx:key='index'>
+      <image src="{{item.photo_url}}"></image>
+    </swiper-item>
+  </swiper>
+  <view class="list-box">
+    <template is='listTmp' data="{{list_tep}}"/>
+  </view>
+  <view class="footerbox">
+    <template is='footTmp'></template>
+  </view>
+</view>

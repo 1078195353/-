@@ -1,0 +1,26 @@
+<!--pages/template/list-template.wxml-->
+<template name="listTmp">
+  <view class="outbox" wx:for="{{list_tep}}" wx:key='index'>
+    <view class="titlebox">
+      <image class="title" src="/images/index/ccnu.jpg"></image>
+      <text>{{item.date}}</text>
+    </view>
+    <view class="mainbox">
+      <text class="maintitle" >{{item.title}}</text>
+      <image src="{{item.detail_img}}"></image>
+      <text class="maintext">
+        <text class="content"decode="true">{{item.detail_content}}</text>
+      </text>
+      <view class="footerouterbox">
+        <view class="footerbox">
+          <text class="iconfont iconxingxing1 star">
+            <text>{{item.love_count}}</text>
+          </text>
+          <text class="iconfont iconyanjing-tianchong look">
+            <text>{{item.look_count}}</text>
+          </text>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>
